@@ -91,8 +91,7 @@ public class Account {
 
         accountBalance = accountBalance.subtract(amount);
 
-        transactions.add(
-                new Transaction("WITHDRAWAL", amount)
+        transactions.add(new Transaction("WITHDRAWAL", amount)
         );
     }
 }
